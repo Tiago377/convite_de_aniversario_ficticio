@@ -1,0 +1,14 @@
+@use "variaveis";
+
+.hero {
+    
+    &__text {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 800;
+        color: variaveis.$textColor;
+        text-align: center;
+    }
+}
